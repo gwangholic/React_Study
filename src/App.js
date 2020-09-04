@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Input from "./03/Input";
 
-function App() {
-  return (
-    <div className="App">
-      <h1 className="title">두잇! 리액트 시작하기</h1>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Input />
+      </div>
+    );
+  }
 }
 
 export default App;
